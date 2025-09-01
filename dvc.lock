@@ -75,7 +75,7 @@ stages:
       size: 1348
     params:
       params.yaml:
-        model_building.learning_rate: 0.3
+        model_building.learning_rate: 0.4
         model_building.n_estimators: 50
     outs:
     - path: model/model.pkl
